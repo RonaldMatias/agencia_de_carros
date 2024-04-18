@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Agência de Carros</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+	<header class="cabecalho">
+		<nav class="cabecalho__menu">
+			<a href="index.html" class="cabecalho__menu__item">Inicio</a>
+			<a href="honda.html" class="cabecalho__menu__item">Honda</a>
+			<a href="toyota.html" class="cabecalho__menu__item">Toyota</a>
+			<a href="volkswagen.html" class="cabecalho__menu__item">Volkswagen</a>
+			<a href="contato.html" class="cabecalho__menu__item">Contato</a>
+		</nav>
+	</header>
+	<main class="conteudo">
+		<h2>Solicte seu orçamento</h2>
+		<br>
+		<div class="formulario_contato">
+			<form action="" name="contato">
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="40" required>
+			<label for="endereco">Endereço:</label>
+			<input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço" maxlength="40" required>
+			<label for="dt_nascimento">Data de Nascimento:</label>
+			<input type="date" name="dt_nascimento" id="dt_nascimento"required>
+			<label for="email">E-mail:</label>
+			<input type="email" name="email" id="email" placeholder="Digite seu email" maxlength="40" required>
+			<label for="cnh">Possui CNH?</label>
+			<input type="radio" id="cnh" name="cnh" value="sim"> SIM
+			<input type="radio" id="cnh" name="cnh" value="nao"> NÃO
+			<label for="msg">Mensagem</label>
+			<textarea id="msg" name="msg" cols="30" rows="10" placeholder="Digite sua Mensagem"></textarea>
+			<div class="bt_enviar_mensagem">
+				<input type="submit" name="enviar" value="Enviar Mensagem" class="bt_enviar_mensagem__texto">
+			</div>
+		</form>
+		</div>
+	</main>
+	<footer class="rodape">
+		<p class="rodape__descricao">
+			Todos os Direitos Reservados.
+			<br>
+			Layout desenvolvido apenas para fins de estudo.
+		</p>
+	</footer>
+</body>
+</html>
